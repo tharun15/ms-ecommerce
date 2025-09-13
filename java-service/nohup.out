@@ -1,0 +1,126 @@
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v2.7.0)
+
+2025-09-13 12:59:25.468  INFO 3691 --- [           main] com.mscommerce.JavaServiceApplication    : Starting JavaServiceApplication v0.0.1-SNAPSHOT using Java 21.0.8 on DESKTOP-4KGM37G with PID 3691 (/home/tharun/projects/ms-ecommerce/java-service/target/java-service-0.0.1-SNAPSHOT.jar started by tharun in /home/tharun/projects/ms-ecommerce/java-service)
+2025-09-13 12:59:25.471  INFO 3691 --- [           main] com.mscommerce.JavaServiceApplication    : No active profile set, falling back to 1 default profile: "default"
+2025-09-13 12:59:26.520  INFO 3691 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2025-09-13 12:59:26.532  INFO 3691 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-09-13 12:59:26.532  INFO 3691 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.63]
+2025-09-13 12:59:26.605  INFO 3691 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-09-13 12:59:26.605  INFO 3691 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1065 ms
+2025-09-13 12:59:26.968  INFO 3691 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2025-09-13 12:59:26.979  INFO 3691 --- [           main] com.mscommerce.JavaServiceApplication    : Started JavaServiceApplication in 2.079 seconds (JVM running for 2.719)
+2025-09-13 13:00:40.847  INFO 3691 --- [nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-09-13 13:00:40.848  INFO 3691 --- [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-09-13 13:00:40.849  INFO 3691 --- [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v2.7.0)
+
+2025-09-13 13:17:09.821  INFO 4138 --- [           main] com.mscommerce.JavaServiceApplication    : Starting JavaServiceApplication v0.0.1-SNAPSHOT using Java 21.0.8 on DESKTOP-4KGM37G with PID 4138 (/home/tharun/projects/ms-ecommerce/java-service/target/java-service-0.0.1-SNAPSHOT.jar started by tharun in /home/tharun/projects/ms-ecommerce/java-service)
+2025-09-13 13:17:09.824  INFO 4138 --- [           main] com.mscommerce.JavaServiceApplication    : No active profile set, falling back to 1 default profile: "default"
+2025-09-13 13:17:10.787  INFO 4138 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2025-09-13 13:17:10.800  INFO 4138 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-09-13 13:17:10.800  INFO 4138 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.63]
+2025-09-13 13:17:10.878  INFO 4138 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-09-13 13:17:10.878  INFO 4138 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 971 ms
+2025-09-13 13:17:11.275  WARN 4138 --- [           main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8080 is already in use
+2025-09-13 13:17:11.278  INFO 4138 --- [           main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2025-09-13 13:17:11.290  INFO 4138 --- [           main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2025-09-13 13:17:11.308 ERROR 4138 --- [           main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v2.7.0)
+
+2025-09-13 13:23:52.253  INFO 8880 --- [           main] com.mscommerce.JavaServiceApplication    : Starting JavaServiceApplication v0.0.1-SNAPSHOT using Java 21.0.8 on DESKTOP-4KGM37G with PID 8880 (/home/tharun/projects/ms-ecommerce/java-service/target/java-service-0.0.1-SNAPSHOT.jar started by tharun in /home/tharun/projects/ms-ecommerce/java-service)
+2025-09-13 13:23:52.260  INFO 8880 --- [           main] com.mscommerce.JavaServiceApplication    : No active profile set, falling back to 1 default profile: "default"
+2025-09-13 13:23:53.358  INFO 8880 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2025-09-13 13:23:53.370  INFO 8880 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-09-13 13:23:53.370  INFO 8880 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.63]
+2025-09-13 13:23:53.473  INFO 8880 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-09-13 13:23:53.473  INFO 8880 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1099 ms
+2025-09-13 13:23:53.951  WARN 8880 --- [           main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8080 is already in use
+2025-09-13 13:23:53.955  INFO 8880 --- [           main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2025-09-13 13:23:53.969  INFO 8880 --- [           main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2025-09-13 13:23:53.987 ERROR 8880 --- [           main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v2.7.0)
+
+2025-09-13 13:27:02.192  INFO 9108 --- [           main] com.mscommerce.JavaServiceApplication    : Starting JavaServiceApplication v0.0.1-SNAPSHOT using Java 21.0.8 on DESKTOP-4KGM37G with PID 9108 (/home/tharun/projects/ms-ecommerce/java-service/target/java-service-0.0.1-SNAPSHOT.jar started by tharun in /home/tharun/projects/ms-ecommerce/java-service)
+2025-09-13 13:27:02.198  INFO 9108 --- [           main] com.mscommerce.JavaServiceApplication    : No active profile set, falling back to 1 default profile: "default"
+2025-09-13 13:27:03.178  INFO 9108 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2025-09-13 13:27:03.190  INFO 9108 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-09-13 13:27:03.191  INFO 9108 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.63]
+2025-09-13 13:27:03.310  INFO 9108 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-09-13 13:27:03.310  INFO 9108 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 999 ms
+2025-09-13 13:27:03.938  WARN 9108 --- [           main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8080 is already in use
+2025-09-13 13:27:03.946  INFO 9108 --- [           main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2025-09-13 13:27:03.963  INFO 9108 --- [           main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2025-09-13 13:27:03.997 ERROR 9108 --- [           main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
